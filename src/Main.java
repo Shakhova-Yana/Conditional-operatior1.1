@@ -12,6 +12,12 @@ public class Main {
 
         System.out.println("\nTask 2");
         int outsideTemperature = 17;
-
+        boolean maybeItColdOutside = outsideTemperature < 5 || outsideTemperature >= 5;
+        if (outsideTemperature < 5); {
+            System.out.println("На улице холодно, нужно надеть шапку");
+        }
+        if (outsideTemperature >= 5); {
+            System.out.println("Сегодня тепло, можно идти без шапки»");
+        }
     }
 }
