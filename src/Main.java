@@ -16,9 +16,30 @@ public class Main {
         System.out.println("\nTask 2");
         int outsideTemperature = 17;
         if (outsideTemperature <= 5) {
-            System.out.printf("На улице %s градусов, нужно надеть шапку", outsideTemperature);
+            System.out.printf("На улице %s градусов, нужно надеть шапку.\n", outsideTemperature);
         } else {
-            System.out.printf("На улице %s градусов, можно идти без шапки", outsideTemperature);
+            System.out.printf("На улице %s градусов, можно идти без шапки.\n", outsideTemperature);
         }
+        //option 2
+        int outsideTemperature2 = 1;
+        if (outsideTemperature2 <= 5) {
+            System.out.printf("На улице %s градусов, нужно надеть шапку.\n", outsideTemperature2);
+        } else {
+            System.out.printf("На улице %s градусов, можно идти без шапки.\n", outsideTemperature2);
+        }
+        //Task 3
+        System.out.println("\nTask 3");
+        int driverSpeedInKm_As = 90;
+        if (driverSpeedInKm_As >= 60) {
+            System.out.printf("Если скорость %s км/ч, придется заплатить штраф.\n", driverSpeedInKm_As);
+        } else {
+            System.out.printf("Если скорость %s км/ч, можно ездить спокойно\n", driverSpeedInKm_As);
+        }
+        //option 2
+        int driverSpeedInKm_As2 = 50;
+        if (driverSpeedInKm_As2 >= 60) {
+            System.out.printf("Если скорость %s км/ч, придется заплатить штраф.\n", driverSpeedInKm_As2);
+        } else {
+            System.out.printf("Если скорость %s км/ч, можно ездить спокойно\n", driverSpeedInKm_As2);}
     }
 }
