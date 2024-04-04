@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\nTask 1");
         int age = 25;
-        if (age >= 18) {System.out.println("ты совершеннолетний");
+        if (age >= 18) {System.out.println("Если возраст человека %s равен,то ты совершеннолетний"+ age);
         } else {
             System.out.println("ты не достиг совершеннолетия, нужно немного подождать)");}
         int age2 = 12;
@@ -12,12 +12,8 @@ public class Main {
 
         System.out.println("\nTask 2");
         int outsideTemperature = 17;
-        boolean maybeItColdOutside = outsideTemperature < 5 || outsideTemperature >= 5;
-        if (outsideTemperature < 5); {
-            System.out.println("На улице холодно, нужно надеть шапку");
-        }
-        if (outsideTemperature >= 5); {
-            System.out.println("Сегодня тепло, можно идти без шапки»");
+        if (outsideTemperature <= 5) {
+            System.out.println("На улице %s градусов"+ outsideTemperature );
         }
     }
 }
