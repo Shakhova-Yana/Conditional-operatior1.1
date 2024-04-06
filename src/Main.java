@@ -50,7 +50,7 @@ public class Main {
         int nowInTheCarriage = 10;
         if (nowInTheCarriage <= 60) {
             System.out.println("Полная или частичная посадка сидячих мест");
-        } else if (nowInTheCarriage < 102){
+        } else if (nowInTheCarriage <= 102){
             System.out.println("Полная посадка сидячих мест и нужно стоять");
         } else {
             System.out.println("Вагон уже полностью забит");
