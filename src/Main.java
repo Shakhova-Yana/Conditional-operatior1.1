@@ -20,18 +20,30 @@ public class Main {
         if (driverSpeedInKm_As >= 60) {
             System.out.printf("Если скорость %s км/ч, придется заплатить штраф.\n", driverSpeedInKm_As);
         } else {
-            System.out.printf("Если скорость %s км/ч, можно ездить спокойно\n", driverSpeedInKm_As);
+            System.out.printf("Если скорость %s км/ч, можно ездить спокойно.\n", driverSpeedInKm_As);
         }
         //Task 4
         System.out.println("\nTask 4");
         if (age > 2 && age <= 6) {
-            System.out.printf("Если человек %s лет, то ему нужно ходить в садик\n", age);
+            System.out.printf("Если человек %s лет, то ему нужно ходить в садик.\n", age);
         } else if (age > 6 && age <=17) {
-            System.out.printf("Если человек %s лет, то ему нужно ходить в школу\n", age);
+            System.out.printf("Если человек %s лет, то ему нужно ходить в школу.\n", age);
         } else if (age > 18 && age <=24) {
-            System.out.printf("Если человек %s лет, то ему нужно ходить в институт\n", age);
+            System.out.printf("Если человек %s лет, то ему нужно ходить в институт.\n", age);
         } else if (age > 24) {
-            System.out.printf("Если человек %s лет, то ему нужно ходить на работу\n", age);
+            System.out.printf("Если человек %s лет, то ему нужно ходить на работу.\n", age);
+        }
+        //Task 5
+        System.out.println("\nTask 5");
+        int personYears = 13;
+        if (personYears < 5) {
+            System.out.printf("Если возраст ребенка равен %s лет, то он не может кататься на аттракционе.\n", personYears);
+        } else if (personYears >= 5 && personYears <14) {
+            System.out.printf("Если возраст ребенка равен %s лет, то он может кататься только в сопровождении взрослого.\n " +
+                            "Но если взрослого нет, то кататься нельзя.\n", personYears);
+        } else if (personYears >= 14) {
+            System.out.printf("Если возраст ребенка равен %s лет, то он может кататься без сопровождения взрослого.\n",
+                    personYears);
         }
     }
 }
