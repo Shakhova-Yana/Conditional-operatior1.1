@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\nTask 1");
         int age = 25;
-        if (age > 18) {System.out.printf("Если возраст человека равен %s ,то ты совершеннолетний.\n", age);
+        if (age >= 18) {System.out.printf("Если возраст человека равен %s ,то ты совершеннолетний.\n", age);
         } else {
             System.out.printf("Если возраст человека равен %s ,то ты не достиг совершеннолетия, нужно немного подождать.\n"
                     , age);}
@@ -28,7 +28,7 @@ public class Main {
             System.out.printf("Если человек %s лет, то ему нужно ходить в садик.\n", age);
         } else if (age > 6 && age <=17) {
             System.out.printf("Если человек %s лет, то ему нужно ходить в школу.\n", age);
-        } else if (age > 18 && age <=24) {
+        } else if (age >= 18 && age <=24) {
             System.out.printf("Если человек %s лет, то ему нужно ходить в институт.\n", age);
         } else if (age > 24) {
             System.out.printf("Если человек %s лет, то ему нужно ходить на работу.\n", age);
@@ -61,11 +61,11 @@ public class Main {
         int two = 7;
         int three = 8;
         if (one > two && one > three) {
-            System.out.println("Самое болшое первое");
+            System.out.println("Самое больше первое");
         } else if (two > one && two > three){
-            System.out.println("Самое болшое второе");
+            System.out.println("Самое больше второе");
         } else if (three > one && three > two) {
-            System.out.println("Самое болшое третье");
+            System.out.println("Самое больше третье");
         } else {
             System.out.println("Есть равные числа");
         }
