@@ -55,5 +55,19 @@ public class Main {
         } else {
             System.out.println("Вагон уже полностью забит");
         }
+        //Task 7
+        System.out.println("\nTask 7");
+        int one = 9;
+        int two = 7;
+        int three = 8;
+        if (one > two && one > three) {
+            System.out.println("Самое болшое первое");
+        } else if (two > one && two > three){
+            System.out.println("Самое болшое второе");
+        } else if (three > one && three > two) {
+            System.out.println("Самое болшое третье");
+        } else {
+            System.out.println("Есть равные числа");
+        }
     }
 }
