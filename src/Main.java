@@ -45,5 +45,15 @@ public class Main {
             System.out.printf("Если возраст ребенка равен %s лет, то он может кататься без сопровождения взрослого.\n",
                     personYears);
         }
+        //Task 6
+        System.out.println("\nTask 6");
+        int nowInTheCarriage = 10;
+        if (nowInTheCarriage <= 60) {
+            System.out.println("Полная или частичная посадка сидячих мест");
+        } else if (nowInTheCarriage < 102){
+            System.out.println("Полная посадка сидячих мест и нужно стоять");
+        } else {
+            System.out.println("Вагон уже полностью забит");
+        }
     }
 }
